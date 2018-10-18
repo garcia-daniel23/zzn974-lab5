@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?scenebuilder-background-color 0x000000ff?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <ImageView fitHeight="600.0" fitWidth="600.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <Lighting diffuseConstant="1.8571428571428572" surfaceScale="5.0">
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <contentInput>
+            <SepiaTone />
+          </contentInput>
+          <light>
+            <javafx.scene.effect.Light.Distant color="#cc6200" />
+          </light>
+        </Lighting>
+      </effect>
+      <image>
+        <Image url="file:/C:/Users/Daniel/Desktop/notauthorized.png" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

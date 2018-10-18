@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <ImageView fitHeight="300.0" fitWidth="402.0" layoutX="98.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="file:/C:/Users/Daniel/Documents/ShareX/Screenshots/2018-03/Beef_Pot_Roast_Recipe_-_Allrecipes.com_-_Google_Ch_2018-03-12_00-12-50.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="300.0" fitWidth="405.0" layoutX="98.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="file:/C:/Users/Daniel/Documents/ShareX/Screenshots/2018-03/Beef_Pot_Roast_Recipe_-_Allrecipes.com_-_Google_Ch_2018-03-12_00-12-34.png" />
+      </image>
+    </ImageView>
+    <Text layoutX="121.0" layoutY="71.0" scaleX="1.7538279432099735" scaleY="2.6289770817080664" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingredients" />
+    <Text layoutX="222.0" layoutY="40.0" scaleX="1.7538279432099735" scaleY="2.6289770817080664" strokeType="OUTSIDE" strokeWidth="0.0" text="Aunt Tammy's Beef Pot Roast">
+      <font>
+        <Font name="System Bold" size="12.0" />
+      </font>
+    </Text>
+  </children>
+</AnchorPane>

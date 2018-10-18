@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="rootPane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.LoginController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Text layoutX="281.0" layoutY="155.0" scaleX="7.004932225995347" scaleY="5.197748409202154" strokeType="OUTSIDE" strokeWidth="0.0" text="Family Recipes">
+      <font>
+        <Font name="System Bold" size="7.0" />
+      </font>
+    </Text>
+    <TextField id="txtUserName" fx:id="user" layoutX="209.0" layoutY="355.0" prefWidth="200.0" />
+    <Text layoutX="120.0" layoutY="397.0" scaleX="2.7588852994400055" scaleY="2.4286149008234816" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+      <font>
+        <Font name="System Bold" size="10.0" fx:id="x1" />
+      </font>
+    </Text>
+    <Text font="$x1" layoutX="117.0" layoutY="365.0" scaleX="2.56515446769348" scaleY="2.405491629704829" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" />
+    <Button layoutX="126.0" layoutY="455.0" mnemonicParsing="false" onAction="#handle" prefWidth="113.0" text="Log In" />
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="195.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="file:/C:/Users/Daniel/Desktop/confidential.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="205.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="file:/C:/Users/Daniel/Desktop/385711.jpg" />
+      </image>
+    </ImageView>
+      <TextField fx:id="pass" layoutX="209.0" layoutY="380.0" prefHeight="25.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>
